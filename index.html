@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="game">
+        <div id="card1" class="card">
+            <div class="score">
+                <p>Your Score : <span id="YourScore">0</span></p>
+                <h3 id="result">The first player to reach 3 points wins</h3>
+                <p>Ai Score : <span id="AiScore">0</span></p>
+            </div>
+           <div class="result">
+            <img id="YourChoice" src="rock.png" alt="">
+            <img id="AiChoice" src="rock.png" alt="">
+           </div>
+           <div class="choices">
+            <h2>Chose</h2>
+            <img id="paper" class="choice" src="paper.png" alt="">
+            <img id="rock" class="choice" src="rock.png" alt="">
+            <img id="scissors" class="choice" src="scissors.png" alt="">
+           </div>
+        </div>
+        <div id="card2" class="card">
+            <img id="imagefinale" src="cat lose.jpeg" alt="">
+            <h1 id="joke">You Win</h1>
+            <button id="playagain" onclick="refreshPage()">Play Again</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
